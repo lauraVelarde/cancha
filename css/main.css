@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 100%;
+    height: 560px;
+    background-color: #52BE80;
+}
+
+.soccer-field{
+    position: relative;
+    left: 1.25%;
+    top:3%;
+    width: 97%;
+    height: 520px;
+    border: 5px solid #fff;
+}
+
+.bow-1{
+     position: relative;
+     bottom: 415px;
+     left: 1.25%;
+     width: 10%;
+     height: 250px;
+     border: 5px solid #fff;  
+ }
+
+ .bow-2{
+    position: absolute;
+    bottom: 380px;
+    right: 1.55%;
+    width: 10%;
+    height: 250px;
+    border: 5px solid #fff;
+    background-color: #52BE80; 
+ }
+
+ .circle-center{
+     width: 17%;
+     height: 255px;
+     border-radius: 255px;
+     border: 5px solid #fff;
+     position: absolute;
+     left: 40%;
+     top:130px;
+ }
